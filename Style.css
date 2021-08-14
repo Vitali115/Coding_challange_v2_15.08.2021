@@ -1,0 +1,83 @@
+*{
+  font-family: 'Sora', sans-serif;
+}
+
+.posizione{
+  font-family: 'Sora', sans-serif;
+}
+
+.container{
+  width: 1000px;
+  margin: auto;
+}
+
+.navbox{
+    display: inline-table;
+    margin: auto;
+    padding: 10px;
+  width: 925px;
+  height: 20px;
+}
+
+.load {
+  height: 28px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+
+.mononame {
+      display: inline-block;
+      font-size: 25px;
+      max-width: 100%;
+      margin-bottom: 5px;
+      font-weight: 700;
+}
+
+.monobox{
+  position: relative;
+  left: 25px;
+  margin-top: 5%:
+  padding: 5px;
+}
+
+p{
+  color: white;
+  margin-top: 0;
+}
+
+.blacksquare {
+  background-color: black;
+  width: 1100px;
+  height: 840px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  border-radius: 20px;
+  opacity: 0.6
+}
+
+.bg{
+
+    background-image: url("background.jpg");
+  width: 1904px;
+  height: 968px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  z-index: -2;
+  left: 50%;
+  top: 50%;
+  }
